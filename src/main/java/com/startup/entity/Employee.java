@@ -10,12 +10,12 @@ public class Employee {
         this.lastName = builder.lastName;
     }
 
-    public String getEmployeeNumber() {
-        return employeeNumber;
-    }
-
     public String getFirstName() {
         return firstName;
+    }
+
+    public String getEmployeeNumber() {
+        return employeeNumber;
     }
 
     public String getLastName() {
